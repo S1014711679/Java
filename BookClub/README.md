@@ -12,7 +12,7 @@ Multi-client/Server Book Club Application
 4.  An admin member can view the members stored in the server site and view the top 3 most popular books.
 5.  The admin can send messages to all members whose favorite book is a particular book.
 
-This app need to run the [BookClubSystem.java] as the starting point and 
+This app needs to run the [BookClubSystem.java](#https://github.com/S1014711679/Java/blob/master/BookClub/BookClubSystem.java) as the starting point and 
 
 
 ##  Dependencies

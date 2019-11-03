@@ -16,7 +16,7 @@ WebSocket URL: 'ws://localhost:8080/chat/`username`';
 Users can join the Chat Room after entering their username `localhost:8080/` and send messages to the Chat Room, which will be seen by all participants. Also, they will see who join or leave the Chat Room. 
 
 ## Reference 
-1. https://www.baeldung.com/java-websockets
+1. A Guide to the Java API for WebSocket(https://www.baeldung.com/java-websockets)
 
 
 

@@ -1,5 +1,5 @@
 # Chat Room
-This chat room application is implemented with SpringBoot WebSocket and Thymleaf dependencies. Maven is used to manage all the significant dependencies.
+This Chat Room application is implemented with SpringBoot WebSocket and Thymleaf dependencies. Maven is used to manage all the significant dependencies.
 
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a server and a client.

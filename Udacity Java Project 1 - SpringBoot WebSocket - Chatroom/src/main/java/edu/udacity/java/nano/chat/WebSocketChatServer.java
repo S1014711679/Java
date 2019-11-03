@@ -74,7 +74,7 @@ public class WebSocketChatServer {
         //System.out.println("WebSocketChatServer --> onClose() : username:" + username);
         onlineSessions.remove(session.getId());
         //broadcast(username + " has left the Chat Room");
-        broadcast(Message.jsonStr(username, "has left the Chat Room", Message.QUIT, onlineSessions.size()));
+        broadcast(Message.jsonStr(username, "has left the Chat Room", Message.LEAVE, onlineSessions.size()));
     }
 
     /**

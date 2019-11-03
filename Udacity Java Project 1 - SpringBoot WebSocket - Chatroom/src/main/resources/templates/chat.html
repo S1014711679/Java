@@ -101,9 +101,6 @@
      * 2、WebSocket client send message to server. example：webSocket.send();
      */
 
-
-
-
     function getWebSocket() {
         /**
          * WebSocket client PS：URL shows WebSocket protocol, port number, and then end point.
@@ -118,7 +115,6 @@
             alert("This browser doesn't support WebSocket");
         }
         webSocket = new WebSocket(prefixUrl + username);
-
         // console.log(prefixUrl + username)
 
         /**
@@ -139,7 +135,7 @@
             var $messageContainer = $('.message-container');
 
 
-            if (message.type === 'ENTER' || message.type === 'QUIT') {
+            if (message.type === 'ENTER' || message.type === 'LEAVE') {
                 $messageContainer.append(
                     '<div class="" style="background-color: #EEEEEE; text-align: center;">' +
                     '<div class="mdui-card-content message-content" style="text-align: center; line-height: 14px;">' + message.username + " " + message.message + '</div>' +

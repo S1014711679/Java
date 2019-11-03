@@ -9,7 +9,7 @@ public class Message {
 
     public static final String ENTER = "ENTER";
     public static final String SPEAK = "SPEAK";
-    public static final String QUIT = "QUIT";
+    public static final String LEAVE = "LEAVE";
 
     private String username;
     private String message;

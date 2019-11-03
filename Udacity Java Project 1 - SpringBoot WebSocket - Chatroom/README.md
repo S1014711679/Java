@@ -1,21 +1,19 @@
 # Chat Room
-Complete the chat room application implementation using WebSocket.
+This chat room application is implemented with SpringBoot WebSocket and Thymleaf dependencies. Maven is used to manage all the significant dependencies.
 
 ## Background
-WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a
-server and a client.
+WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a server and a client.
 
-## Instruction
-### Implement the message model
-Message model is the message payload that will be exchanged between the client and the server. Implement the Message
-class in chat module. Make sure you cover all there basic actions.
-1. ENTER
-2. CHAT
-3. LEAVE
+Backend:
 
-### Complete WebSocketChatServer
-Implement all TODOs inside WebSocketChatServer follow each method description.
 
-### Run the application with command
-mvn build; mvn spring-boot:run
+Frontend:
+
+## Functions 
+Users can join the Chat Room after entering their username and send messages to the Chat Room, which will be seen by all participants. Also, they will see who join or leave the Chat Room. 
+
+## Reference 
+1. 
+
+
 

@@ -4,10 +4,13 @@ This chat room application is implemented with SpringBoot WebSocket and Thymleaf
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a server and a client.
 
-Backend:
+Backend:(Server Side)
+@ServerEndPoint("/chat/{username}")
 
+matches 
 
-Frontend:
+Frontend:(Client Side)
+WebSocket URL: 'ws://localhost:8080/chat/`username`';
 
 ## Functions 
 Users can join the Chat Room after entering their username and send messages to the Chat Room, which will be seen by all participants. Also, they will see who join or leave the Chat Room. 
